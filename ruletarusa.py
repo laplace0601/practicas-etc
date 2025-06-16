@@ -7,7 +7,8 @@ def juego():
         print("presiona enter para disparar")
         intento = input()
         if tambor.pop(0): 
-          print(f"BANG MUELTO")
+          print(f"PEEEEEEEEEEEERSOOOOOOOOOOOOOOOOOOOOOOOOONAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+          print("BANG")
           break
         else:
          print("salvado la proxima no la cuentas")
