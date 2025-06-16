@@ -4,10 +4,11 @@ class cuenta :
     #mostrar
     def mostrar():
        print (f"su saldo es: $"{self.saldo})
-
+    #agregar saldo
     def agregar(self):
        esmeralda = input("ingrese su saldo: ")
        self.saldo += esmeralda
+    #retirar saldo
     def retirar(self):
         while True:
             rubi = input("ingrese valor para retirar: ")
@@ -18,3 +19,4 @@ class cuenta :
             else:
                 self.saldo -= rubi
                 break
+    
