@@ -27,13 +27,11 @@ caja = cuenta()
 def cajabank():
     while True:
         print("bievenido a su cajero de confianza")
-        print("que desea hacer ?")
-        print("presione 1 si usted desea consultar saldo y numero de cuenta")
-        print("2 si quiere agregar saldo")
-        print("3 si quiere retirar saldo")
+        print("1 consultar saldo y numero de cuenta")
+        print("2  agregar saldo")
+        print("3 retirar saldo")
         print("presione cualquier otro boton para salir")
         numero = float(input("incertar numero: "))
-    
         if numero == 1:
                 caja.mostrar()
         elif numero == 2:
@@ -43,4 +41,7 @@ def cajabank():
         else:
             print("hasta pronto :)")
             break
+        
+        
+#iniciar interfaz
 cajabank()
