@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saludo Personalizado</title>
+</head>
+<body>
+    <h1>¡Hola, {{ nombre }}!</h1>
+    <p>Este saludo se generó con Flask y HTML 🎉</p>
+</body>
+</html>

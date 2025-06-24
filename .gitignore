@@ -1,0 +1,32 @@
+# Archivos de entornos virtuales
+.venv/
+ENV/
+env.bak/
+
+# Configuraciones de entorno y seguridad
+.env
+.env.*
+
+# Archivos de bases de datos locales
+*.sqlite3
+*.db
+
+# Archivos de pruebas o cobertura
+.coverage
+htmlcov/
+coverage.xml
+pytest_cache/
+
+# Archivos de depuración
+*.log
+debug.log
+*.pid
+
+# Archivos de entorno de Jupyter o IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Archivos de lock (según el gestor de paquetes)
+poetry.lock
+Pipfile.lock
+package-lock.json
