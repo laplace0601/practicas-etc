@@ -1,4 +1,7 @@
 from flask import Flask, render_template
+#render_template permite renderizar una plantilla HTML
+#en este caso, se usara la plantilla saludo.html    
+
 app= Flask(__name__)
 @app.route('/saludo/<nombre>')
 def saludo_personalizado(nombre):

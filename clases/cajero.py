@@ -20,6 +20,8 @@ class cuenta :
                 break
             else:
                 self.saldo -= rubi
+                print("su retiro fue exitoso")
+                
                 break
     
 caja = cuenta()
